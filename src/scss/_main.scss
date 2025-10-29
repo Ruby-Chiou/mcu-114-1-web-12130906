@@ -3,6 +3,7 @@ section {
   flex-direction: column;
   min-height: 100vh;
   div {
+    //頁首、頁尾樣式
     &.container {
       min-width: 90vw;
       margin: 0px auto;
@@ -22,5 +23,15 @@ section {
     &.main {
       flex-grow: 1;
     }
+  }
+}
+
+//超連結樣式
+a {
+  color: var(--text-color);
+  text-decoration: inherit;
+
+  &:hover {
+    color: var(--primary-color);
   }
 }

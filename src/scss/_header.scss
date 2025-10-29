@@ -13,15 +13,6 @@ header {
     //導覽列樣式
     display: flex;
     gap: 1.5rem;
-
-    a {
-      color: var(--text-color);
-      text-decoration: inherit;
-
-      &:hover {
-        color: var(--primary-color);
-      }
-    }
   }
 
   div {
@@ -36,6 +27,7 @@ header {
       gap: 0.5rem;
     }
 
+    //搜索欄樣式
     &.search {
       display: flex;
       gap: 0;
