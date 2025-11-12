@@ -30,6 +30,7 @@ header {
     //搜索欄樣式
     &.search {
       display: flex;
+      align-items: stretch;
       gap: 0;
 
       input {
