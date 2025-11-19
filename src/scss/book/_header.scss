@@ -1,0 +1,16 @@
+@use "../common";
+//書籍A的標題樣式
+header {
+  border-bottom: solid 1px var(--border-color);
+  background-color: var(--background-color);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+
+  h3 {
+    //標題樣式
+    margin: 0px;
+    @include common.fontStyle(1.25rem, 700, 1.75rem);
+    color: var(--primary-color);
+  }
+}
