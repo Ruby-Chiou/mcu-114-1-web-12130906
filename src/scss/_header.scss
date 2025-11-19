@@ -16,7 +16,7 @@ header {
 
   nav {
     //導覽列樣式
-    display: flex;
+    display: var(--nav-display);
     gap: 1.5rem;
   }
 
